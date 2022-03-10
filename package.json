@@ -1,0 +1,36 @@
+{
+  "name": "tsogts_demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.4.2",
+    "@mui/material": "^5.4.3",
+    "@mui/system": "^5.4.3",
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
+    "cookie": "^0.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "next": "12.1.0",
+    "next-connect": "^0.12.2",
+    "postcss": "^8.4.7",
+    "postcss-preset-env": "^7.4.1",
+    "react": "17.0.2",
+    "react-connect": "^0.4.0",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.27.1"
+  },
+  "devDependencies": {
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.1.0",
+    "tailwindcss": "^3.0.23"
+  }
+}

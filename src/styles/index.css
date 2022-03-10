@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth_sidebar {
+    background: #2c37df;
+    flex:2;
+}
+.bg {
+    background-color: #2c37df;
+}
+.auth {
+    flex: 5;
+    position: relative;
+}
+.sidebar_icon {
+    fill: #92d76a;
+}
+.sidebar_text {
+    position: absolute;
+    transform: translateY(-50%);
+    top:50%;
+}
+.sign {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    left:50%;
+    transform: translate(-70%, -50%);
+}
+.admin_sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+.admin_dashboard {
+    flex: 4;
+}
+.dashboard {
+    flex: 5;
+}
+/* .sidebar_current {
+
+    background-color: blue;
+    border-radius: 30px;
+} */
